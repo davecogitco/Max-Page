@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Max Page – AI &amp; Search Links</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0f1117;
+      color: #e2e8f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem 4rem;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(90deg, #7c3aed, #3b82f6, #06b6d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      color: #94a3b8;
+      margin-bottom: 2.5rem;
+    }
+
+    section {
+      width: 100%;
+      max-width: 800px;
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #64748b;
+      margin-bottom: 1rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid #1e293b;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 0.75rem;
+    }
+
+    a.card {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.85rem 1rem;
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 0.75rem;
+      text-decoration: none;
+      color: #e2e8f0;
+      transition: background 0.15s, border-color 0.15s, transform 0.1s;
+    }
+
+    a.card:hover {
+      background: #273449;
+      border-color: #7c3aed;
+      transform: translateY(-2px);
+    }
+
+    a.card img {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      object-fit: contain;
+      background: #fff;
+      padding: 2px;
+      flex-shrink: 0;
+    }
+
+    a.card img[hidden] {
+      display: none;
+    }
+
+    .card-label {
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    footer {
+      margin-top: auto;
+      font-size: 0.8rem;
+      color: #475569;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Max Page</h1>
+  <p class="subtitle">Links to major AI assistants &amp; search engines</p>
+
+  <!-- ───────────── AI Assistants ───────────── -->
+  <section>
+    <h2>AI Assistants</h2>
+    <div class="grid">
+
+      <a class="card" href="https://chat.openai.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=64" alt="ChatGPT logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">ChatGPT</span>
+      </a>
+
+      <a class="card" href="https://claude.ai" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=claude.ai&sz=64" alt="Claude logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Claude (Anthropic)</span>
+      </a>
+
+      <a class="card" href="https://gemini.google.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64" alt="Gemini logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Gemini (Google)</span>
+      </a>
+
+      <a class="card" href="https://copilot.microsoft.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=copilot.microsoft.com&sz=64" alt="Copilot logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Microsoft Copilot</span>
+      </a>
+
+      <a class="card" href="https://www.meta.ai" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=meta.ai&sz=64" alt="Meta AI logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Meta AI</span>
+      </a>
+
+      <a class="card" href="https://grok.x.ai" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=64" alt="Grok logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Grok (xAI)</span>
+      </a>
+
+      <a class="card" href="https://www.perplexity.ai" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=perplexity.ai&sz=64" alt="Perplexity logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Perplexity AI</span>
+      </a>
+
+      <a class="card" href="https://mistral.ai/chat" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=64" alt="Mistral logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Mistral Le Chat</span>
+      </a>
+
+      <a class="card" href="https://huggingface.co/chat" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=64" alt="HuggingChat logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">HuggingChat</span>
+      </a>
+
+      <a class="card" href="https://www.cohere.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=cohere.com&sz=64" alt="Cohere logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Cohere</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ───────────── AI Image Generation ───────────── -->
+  <section>
+    <h2>AI Image Generation</h2>
+    <div class="grid">
+
+      <a class="card" href="https://openai.com/dall-e-3" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=64" alt="DALL·E logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">DALL·E (OpenAI)</span>
+      </a>
+
+      <a class="card" href="https://www.midjourney.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=midjourney.com&sz=64" alt="Midjourney logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Midjourney</span>
+      </a>
+
+      <a class="card" href="https://stability.ai" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=stability.ai&sz=64" alt="Stable Diffusion logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Stable Diffusion</span>
+      </a>
+
+      <a class="card" href="https://ideogram.ai" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=ideogram.ai&sz=64" alt="Ideogram logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Ideogram</span>
+      </a>
+
+      <a class="card" href="https://runwayml.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=runwayml.com&sz=64" alt="Runway logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Runway</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ───────────── AI-Powered Search ───────────── -->
+  <section>
+    <h2>AI-Powered Search</h2>
+    <div class="grid">
+
+      <a class="card" href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=google.com&sz=64" alt="Google logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Google</span>
+      </a>
+
+      <a class="card" href="https://www.bing.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=bing.com&sz=64" alt="Bing logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Bing (Microsoft)</span>
+      </a>
+
+      <a class="card" href="https://you.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=you.com&sz=64" alt="You.com logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">You.com</span>
+      </a>
+
+      <a class="card" href="https://www.phind.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=phind.com&sz=64" alt="Phind logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Phind</span>
+      </a>
+
+      <a class="card" href="https://kagi.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=kagi.com&sz=64" alt="Kagi logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Kagi</span>
+      </a>
+
+      <a class="card" href="https://www.brave.com/search" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=brave.com&sz=64" alt="Brave Search logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Brave Search</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ───────────── AI Developer Tools & Platforms ───────────── -->
+  <section>
+    <h2>AI Developer Tools &amp; Platforms</h2>
+    <div class="grid">
+
+      <a class="card" href="https://openai.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=64" alt="OpenAI logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">OpenAI</span>
+      </a>
+
+      <a class="card" href="https://www.anthropic.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=64" alt="Anthropic logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Anthropic</span>
+      </a>
+
+      <a class="card" href="https://deepmind.google" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=deepmind.google&sz=64" alt="Google DeepMind logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Google DeepMind</span>
+      </a>
+
+      <a class="card" href="https://huggingface.co" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=64" alt="Hugging Face logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Hugging Face</span>
+      </a>
+
+      <a class="card" href="https://replicate.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=replicate.com&sz=64" alt="Replicate logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Replicate</span>
+      </a>
+
+      <a class="card" href="https://www.together.ai" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=together.ai&sz=64" alt="Together AI logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Together AI</span>
+      </a>
+
+      <a class="card" href="https://groq.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=groq.com&sz=64" alt="Groq logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">Groq</span>
+      </a>
+
+      <a class="card" href="https://www.nvidia.com/en-us/ai" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=64" alt="NVIDIA AI logo" loading="lazy" onerror="this.hidden=true" />
+        <span class="card-label">NVIDIA AI</span>
+      </a>
+
+    </div>
+  </section>
+
+  <footer>
+    Max Page &mdash; curated AI &amp; search links
+  </footer>
+
+</body>
+</html>
